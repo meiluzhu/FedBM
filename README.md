@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 ### Scripts
 - [x] download [Kvasir dataset](https://drive.google.com/file/d/1fzIIiZZYnpDtetjkdQOhSDTtjBkPbFCU/view?usp=sharing) and [OCT-8](https://drive.google.com/file/d/13Mm2TybL44jC2dMCh4flz0zXGE1VYGms/view?usp=sharing) datasets and put them into the dir './data/'.
-- [x]  Train DEeR framework on OCT-8 dataset.
+- [x]  Train FedBM framework on OCT-8 dataset.
 ```
 python main.py --exp_name='E1' \
 --data_path='./data/Retinal_OCT-C8/' \
@@ -39,7 +39,7 @@ python main.py --exp_name='E1' \
 --lambda_div=1 \
 --lambda_dis=0.1 \
 ```
-- [x] Train DEeR framework on Kvasir dataset.
+- [x] Train FedBM framework on Kvasir dataset.
 ```
 python main.py --exp_name='E1' \
 --data_path='./data/kvasir-dataset-v2-processed-224/' \
