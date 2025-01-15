@@ -44,7 +44,7 @@ python main.py --exp_name='E1' \
 - [x] Train FedBM framework on Kvasir dataset.
 ```
 python main.py --exp_name='E1' \
---data_path='./data/kvasir-dataset-v2-processed-224/' \
+--data_path='./data/kvasir-dataset-v2-processed/' \
 --node_num=10 \
 --iid=0 \
 --dirichlet_alpha=0.05 \
