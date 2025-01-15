@@ -15,7 +15,7 @@ Federated learning (FL) has shown great potential in medical image computing sin
 pip install -r requirements.txt
 ```
 ### Scripts
-- [x] download [Kvasir dataset](https://drive.google.com/file/d/1fzIIiZZYnpDtetjkdQOhSDTtjBkPbFCU/view?usp=sharing) and [OCT-8](https://drive.google.com/file/d/13Mm2TybL44jC2dMCh4flz0zXGE1VYGms/view?usp=sharing) datasets and put them into the dir './data/'.
+- [x] download [Kvasir dataset](https://drive.google.com/file/d/1IC6TUfy-QJQJMit21v7wyVm773mYF2fm/view?usp=sharing) and [OCT-8](https://drive.google.com/file/d/13Mm2TybL44jC2dMCh4flz0zXGE1VYGms/view?usp=sharing) datasets and put them into the dir './data/'.
 - [x]  Train FedBM framework on OCT-8 dataset.
 ```
 python main.py --exp_name='E1' \
