@@ -67,6 +67,17 @@ python main.py --exp_name='E1' \
 --lambda_dis=1 \
 ```
 
+## Citation
+If you find our work useful in your research or publication, please cite our work:
+```
+@inproceedings{2024Stealing,
+  title={Stealing Knowledge from Pre-trained Language Models for Federated Classifier Debiasing},
+  author={Zhu, Meilu and Yang, Qiushi and Gao, Zhifan and Liu, Jun and Yuan, Yixuan},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  year={2024}
+}
+```
+
 ## Contact
 
   Meilu Zhu (meiluzhu2-c@my.cityu.edu.hk)
